@@ -1,0 +1,19 @@
+:root {
+  --navbar-bg-color: rgb(100, 123, 204);
+  --navbar-item-color: rgb(255, 255, 255);
+  --bg-color: rgb(30, 33, 36);
+  --menu-bar-color: rgb(255, 255, 255);
+  --menu-bar-font-size: 25px;
+  --menu-bar-hover-color: rgb(220, 220, 220);
+}
+* {
+  cursor: default;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+}
